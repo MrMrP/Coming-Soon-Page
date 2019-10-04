@@ -31,7 +31,7 @@ img {
     background: #ffffff;
 }
 
-main {
+.container-content{
     padding: 0 1em;
     position: absolute;
     top: 50%;
@@ -59,4 +59,24 @@ p {
     animation: animatetop 1.0s;
 }
 
-/* Keyframes /*
+/* Keyframes */
+
+@-webkit-keyframes mymove {
+    50% {opacity: 0;}
+}
+
+@keyframes mymove {
+    50% {opacity: 1;}
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+
+    to { 
+        top: 0px;
+        opacity: 0px;
+    }
+}
