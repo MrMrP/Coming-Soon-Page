@@ -1,0 +1,8 @@
+body {
+    height: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.bgimg {
+    background-image: url('https://picsum.photos/id/1048/5616/3744')
+}
