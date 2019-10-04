@@ -4,5 +4,59 @@ body {
 }
 
 .bgimg {
-    background-image: url('https://picsum.photos/id/1048/5616/3744')
+    background-image: url('https://picsum.photos/id/1048/5616/3744');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
 }
+
+.display-container {
+    padding: 0 1em;
+    -webkit-animation: mymove 1s;
+    animation: mymove 1s;
+    color: #ffffff;
+}
+
+.logo {
+    position: relative;
+    padding: 12px 24px;
+    font-size: 3em;
+    color: #ffffff;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+img {
+    opacity: 0.4;
+    background: #ffffff;
+}
+
+main {
+    padding: 0 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 4em!important;
+    color: #000000;
+}
+
+p, 
+h5 {
+    font-size: 1.3em!important;
+    color: #000000;
+    text-align: center;
+}
+
+h1,
+h5,
+p {
+    position: relative;
+    animation: animatetop 1.0s;
+}
+
+/* Keyframes /*
